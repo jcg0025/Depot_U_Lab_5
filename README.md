@@ -18,7 +18,7 @@ Using JQuery - create a typing game.
 		*Hint: the letters should be matched with the corresponding ascii code. The id value of the key in the html corresponds to the ASCII character code that you can access in the keyboard listener
 * The provided array sentences should be displayed at the top of the page one sentence at a time. Once the sentence has been completed, the next in line should appear.
 ```
-var sentences = ['ten ate neite ate nee enet ite ate inet ent eate', 'Too ato too nOt enot one totA not anot tOO aNot', 'oat itain oat tain nate eate tea anne inant nean', 'itant eate anot eat nato inate eat anot tain eat', 'nee ene ate ite tent tiet ent ine ene ete ene ate'];
+var sentences = ['ten ate neite ate nee enet ite ate inet ent eate', ' Too ato too nOt enot one totA not anot tOO aNot', 'oat itain oat tain nate eate tea anne inant nean', 'itant eate anot eat nato inate eat anot tain eat', 'nee ene ate ite tent tiet ent ine ene ete ene ate'];
 ```
 * Letters should be highlighted with animation as the correct keys are pressed:
 		*If the correct letter is pressed, indicate below with a green check.

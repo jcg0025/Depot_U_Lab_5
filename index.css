@@ -44,6 +44,7 @@
 
 .revert {
     background-color: green;
+    height: 50px;
 }
 
 input {
@@ -51,5 +52,17 @@ input {
     width: 900px;
     margin-left: -10px;
 }
+
+.glyph-container {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+};
+
+
+
+
+
+
 
 

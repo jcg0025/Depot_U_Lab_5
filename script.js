@@ -50,13 +50,33 @@ $('#words-typed').append('<input></input>');
 
 var letterArray =[];
 $(document).keypress(function(key) {
+    var glyphOK = $('<span></span>').addClass('glyphicon glyphicon-ok');
+    var glyphRemove =$('<span></span>').addClass('glyphicon glyphicon-remove');
     var letterTyped = String.fromCharCode(key.which);
     letterArray.push(letterTyped);
     console.log(letterArray);
-    console.log(letterArray.length);   
+    console.log(letterArray.length); 
+    var x = letterArray.length -1;
+    var y = letterArray.length - 49;
+    if (letterArray[x] === sentences[0].charAt(x)) {
+        console.log('match');
+        $('.glyph-container').append(glyphOK);
+    } else {
+        $('.glyph-container').append(glyphRemove);
+    }
+    if (x == 48) {
+        $('#words').hide(sentences[0]);
+        $('#words2').append(sentences[1]);
+    }
+
+    
+        
+    
+    
  
 });  
 
+ 
 
 
 });
