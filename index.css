@@ -57,7 +57,19 @@ input {
     display: inline-block;
     font-size: 14px;
     letter-spacing: 3.5px;
+    margin-right: 271px;
 };
+
+.glyph-container-2 {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+    margin-right: 271px;
+};
+
+span {
+    background-color: yellow;
+}
 
 
 
